@@ -8,10 +8,12 @@ afterAll(() => {
   trigger("afterAll");
 });
 
-test('test sommething one', () => {
+test('test something one', () => {
+  console.log("test something one")
   expect(true).toBe(true);
 });
 
-test('test sommething two', () => {
+test('test something two', () => {
+  console.log("test something two")
   expect(true).toBe(true);
 });
