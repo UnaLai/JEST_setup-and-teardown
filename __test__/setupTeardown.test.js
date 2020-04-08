@@ -1,11 +1,19 @@
 const trigger = require('../js/trigger');
 
-beforeAll(() => {
-  trigger("beforeAll");
+// beforeAll(() => {
+//   trigger("beforeAll");
+// });
+
+// afterAll(() => {
+//   trigger("afterAll");
+// });
+
+beforeEach(() => {
+  trigger("beforeEach");
 });
 
-afterAll(() => {
-  trigger("afterAll");
+afterEach(() => {
+  trigger("afterEach");
 });
 
 test('test something one', () => {
