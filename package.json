@@ -1,0 +1,17 @@
+{
+  "name": "JEST_setup-and-teardown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/UnaLai/JEST_setup-and-teardown.git",
+  "author": "UnaLai <qqq323618@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
